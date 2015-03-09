@@ -1,0 +1,189 @@
+﻿.main
+{
+    background-image:url(images/background.png);
+    width:1000px;
+    height:750px;
+    position:relative;
+}
+
+#version1 {
+    position:relative;
+    left:180px;
+    top:192px;
+    width:290px;
+    height:370px;
+    display:inline-block;
+
+}
+
+button {
+    width:287px;
+    height:72px;
+    border:0;
+    border-radius:6px;
+    padding:0;
+    margin-bottom:27px;
+}
+
+
+#google_play1 {
+   background-image:url(images/google_play1.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#version1 .text {
+    width:176px;
+    float:right;
+    height:47px;
+    border-left:solid;
+    border-left-width:2px;
+    border-left-color:#ececec;
+    padding:12px 18px;
+    text-align:left;
+    font-family:'Myriad Pro';
+   
+}
+
+.text p {
+    margin:0;
+}
+
+
+#version1 .text p:first-of-type {
+    font-size:17px;
+    font-weight:100;
+    color:#6b7277
+}
+
+#version1 .text p:last-of-type {
+    text-transform:uppercase;
+    margin-top:0px;
+    font-size:18px;
+    color:#565f64;
+    font-weight:500;
+}
+#app_store1 {
+   background-image:url(images/app_store1.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#android_market1 {
+    background-image:url(images/android_market1.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#windows_phone1 {
+    background-image:url(images/windows_phone1.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#version2 {
+    width:290px;
+    display:inline-block;
+    top:192px;
+    position:relative;
+    left:237px;
+    height:370px;
+}
+
+#google_play2 {
+    background-color:#3eabba;
+    background-image:url(images/google_play2.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#version2 .text {
+    width:178px;
+    float:right;
+    height:47px;
+    padding:12px 18px;
+    text-align:left;
+    font-family:'Myriad Pro';
+    border-radius:0 6px 6px 0;
+    background-color:#ffffff;
+    position:relative;
+    right:-2px;
+
+}
+
+#google_play2 p:first-of-type {
+    font-size:17px;
+    font-weight:100;
+    color:#3eabba;
+}
+
+#google_play2 p:last-of-type {
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #3eabba;
+    font-weight: 500;
+}
+
+#app_store2 {
+    background-color:#646c70;
+    background-image:url(images/app_store2.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#app_store2 p:first-of-type {
+    font-size:17px;
+    font-weight:100;
+    color:#646c70;
+}
+
+#app_store2 p:last-of-type {
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #646c70;
+    font-weight: 500;
+}
+
+#android_market2 {
+    background-color:#a4c639;
+    background-image:url(images/android_market2.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#android_market2 p:first-of-type {
+    font-size:17px;
+    font-weight:100;
+    color:#a4c639;
+}
+
+#android_market2 p:last-of-type {
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #a4c639;
+    font-weight: 500;
+}
+
+#windows_phone2 {
+    background-color:#68217a;
+    background-image:url(images/windows_phone2.png);
+    background-repeat:no-repeat;
+    background-position:20px center; 
+}
+
+#windows_phone2 p:first-of-type {
+    font-size:17px;
+    font-weight:100;
+    color:#68217a;
+}
+
+#windows_phone2 p:last-of-type {
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #68217a;
+    font-weight: 500;
+}
